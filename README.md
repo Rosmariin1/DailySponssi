@@ -1,7 +1,3 @@
-# dailysponssi.github.io
-
-<!DOCTYPE html>
-
 <html lang="fi">
 <head>
 <meta charset="utf-8"/>
