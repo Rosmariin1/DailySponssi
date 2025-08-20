@@ -19,7 +19,7 @@
     --radius: 18px;
   }
   * { box-sizing: border-box; }
-  html, body { margin: 0; padding: 0; background: linear-gradient(180deg, #0a1528 0%, #0b0e13 100%); color: var(--text); font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, Noto Sans, 'Apple Color Emoji','Segoe UI Emoji'; }
+  html, body { margin: 0; padding: 0; overflow-x: hidden; background: linear-gradient(180deg, #0a1528 0%, #0b0e13 100%); color: var(--text); font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, Noto Sans, 'Apple Color Emoji','Segoe UI Emoji'; }
   a { color: inherit; text-decoration: none; }
   .container { max-width: 1200px; margin: 0 auto; padding: 0 16px; }
 
@@ -33,7 +33,7 @@
   nav a:hover { background: var(--bg-glass); color: var(--title); }
   .meta { color: var(--muted); font-size: 12px; }
 
-  .ticker-wrap { background: linear-gradient(90deg, #152a48, #101a2f); border-top: 1px solid rgba(255,255,255,0.06); border-bottom: 1px solid rgba(255,255,255,0.06); }
+  .ticker-wrap {  background: linear-gradient(90deg, #152a48, #101a2f); border-top: 1px solid rgba(255,255,255,0.06); border-bottom: 1px solid rgba(255,255,255,0.06); }
   .ticker { display: flex; gap: 40px; white-space: nowrap; will-change: transform; padding: 10px 0; animation: ticker 28s linear infinite; }
   .chip { display: inline-flex; align-items: center; gap: 8px; background: rgba(77,184,255,0.12); color: #4db8ff; padding: 6px 10px; border-radius: 999px; font-weight: 700; letter-spacing: .3px; font-size: 12px; }
   .tick { color: var(--title); font-weight: 700; }
@@ -90,7 +90,7 @@
 <div aria-label="Live-otsikot" class="ticker" role="marquee"><span class="chip">LIVE</span><span class="tick">Tipi nähtiin koulussa ensimmäistä kertaa kolmeen kuukauteen.</span><span class="tick">Korsu nähtiin syömässä ”Veke” pihviä.</span><span class="tick">Solanan kurssi jälleen laskussa.</span><span class="tick">Sergeant Vahamäellä meet &amp; greet aulassa 14.00.</span><span class="tick">Pyryn nähtiin kolaroivan koulun pihalla olevaan valotolppaan.</span></div>
 </div>
 </div>
-<main class="container">
+<main class="container" >
 <div aria-label="Pääuutiset ja nostot" class="grid" role="region">
 <article class="card" data-category="HUUMORI">
 <div class="media">
