@@ -124,6 +124,8 @@ window.onload = function(){ switchMainNews(); };
 <p class="notice"><em>Huom: Tämä tarina on täysin fiktiivinen ja tarkoitettu huumoriksi. Mahdolliset yhtäläisyydet todellisiin henkilöihin ovat sattumaa.</em></p>
 </div>
 </article>
+
+
 <article class="card police" data-category="RIKOS">
   <div class="media">
     <div class="badge-row">
@@ -135,11 +137,24 @@ window.onload = function(){ switchMainNews(); };
   <div class="content">
     <div class="kicker">Rikos</div>
     <h2 class="headline">Poliisi pyytää havaintoja Lakaniemestä</h2>
-    <p class="lead">Poliisi etsii Lakaniemeä, joka karkasi apikallaan yöllä noin kolmen aikaan. 
-    Viranomaiset pyytävät silminnäkijähavaintoja ja lisätietoja mahdollisilta todistajilta.</p>
-    <p class="notice">Jos näit jotain tai tiedät asiasta lisää, pyydämme ottamaan yhteyttä poliisiin.</p>
+    <p class="lead">Lakaniemi pakeni yön pimeydessä apikallaan kilvet paikoillaan, mutta viranomaisten mukaan 
+    mikäli hän jäisi kiinni, kilvet otettaisiin välittömästi pois ja menopeli määrättäisiin ajokieltoon. 
+    Pyörä ei täyttäisi katsastuksen vaatimuksia edes hyvällä tahdolla.</p>
+    
+    <p>Silminnäkijöiden mukaan Lakaniemen kyyti oli kaikkea muuta kuin rauhallista: vauhti kiihtyi niin, että
+    sivupeilit tärisivät irtoamispisteeseen ja takarengas piirteli mustaa raitaa asfalttiin. 
+    Yksi ohikulkija kuvaili: "Se näytti siltä kuin olisi kilpa-ajaja, mutta todellisuudessa se oli vain paikallinen
+    legenda, joka ei tunne jarrupolkimen olemassaoloa."</p>
+
+    <p>Draamaa lisäsi se, että ennen katoamistaan Lakaniemi huikkasi kavereilleen, että 
+    <em>"jos poliisi pysäyttää, tästä pyörästä lähtee enemmän kuin pelkät kilvet."</em></p>
+
+    <p class="notice">Poliisi jatkaa etsintöjä ja muistuttaa, että kyseinen apikka ei ole liikennekelpoinen. 
+    Mikäli näet sen liikenteessä, pysy turvallisen välimatkan päässä ja ilmoita havainnoistasi viranomaisille.</p>
   </div>
 </article>
+
+
 
 <aside class="stack"><article class="mini" data-category="URHEILU" onclick="openOverlay('vahamaki')"><div class="media"><img alt="Biljardi kuva" src="https://via.placeholder.com/400x200?text=Biljardi"/></div><div class="content"><h2 class="headline">Sergeant Vahamäki voitti kansainvälisen biljarditurnauksen</h2><p class="lead">Dramaattinen finaali huipentui täydelliseen pussitukseen.</p></div></article><article class="mini" data-category="RIKOS" onclick="openOverlay('vekepro')"><div class="media"><img alt="Poliisi kuva" src="https://via.placeholder.com/400x200?text=Poliisi+Tiedottaa"/></div><div class="content"><h2 class="headline">Poliisi tiedottaa: Koditon Vekepro Kalevan lukion portailla</h2><p class="lead">Poliisi pyytää havaintoja tapahtuneesta ja mahdollisia lisätietoja.</p></div></article><article class="mini" data-category="TALOUS" onclick="openOverlay('crypto')"><div class="media"><img alt="Kertun kellarin krypto" src="https://via.placeholder.com/400x200?text=Kertun+kellari+%26+krypto"/></div><div class="content"><h2 class="headline">Kertun kellarin ruoat heiluttavat kryptomarkkinoita – XRP ja Solana kriisissä</h2><p class="lead">Asiantuntijat: kellarin keitokset syynä villiin kurssiheilahteluun.</p></div></article><article class="mini" data-category="RIKOS" onclick="openOverlay('node')"><div class="media"><img alt="Node havaintoja" src="https://via.placeholder.com/400x200?text=Node+%E2%80%A2+havaintoja+pyydet%C3%A4%C3%A4n"/></div><div class="content"><h2 class="headline">Poliisi tiedottaa: Node nähty “fiktaamassa” Kalevan lukion takana ja keskustassa</h2><p class="lead">Musta Originals -huppari, hiukset sekaisin. Poliisi pyytää havaintoja.</p></div></article></aside>
 </div>
